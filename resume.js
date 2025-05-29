@@ -264,7 +264,7 @@ var initProgram = setTimeout(function(){
         }
 
         function initApp(i){
-            $('#applied').addClass('fa fa-wrench');
+            $('#applied').addClass('fa ');
             $('#applied').addClass("cursor").text($applied.substring(0, i));
             if(i < $applied.length){
                 setTimeout(function(){
