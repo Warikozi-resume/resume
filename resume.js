@@ -17,7 +17,7 @@ setTimeout(function() {
 var initProgram = setTimeout(function(){
 
     var job = "Unversity of Marland Globle Compass"
-    var message = "RUNNING SECURITY ARCHITECH RESUME FOR BONEY";
+    var message = "RUNNING SECURITY ARCHITECH RESUME FOR MR.BONEY";
     var $identityDiv = $("#identity-results");
     var greeting = "";
     var $edu = "Unversity of Marland Globle Compass";
@@ -189,7 +189,7 @@ var initProgram = setTimeout(function(){
         }
 
         function initEnh(i){
-            $('#enhance').addClass('fa fa-wrench');
+            $('#enhance').addClass('sign cursor');
             $('#enhance').addClass("cursor").text($enhance.substring(0, i));
             if(i < $enhance.length){
                 setTimeout(function(){
@@ -204,7 +204,7 @@ var initProgram = setTimeout(function(){
         }
 
         function initDim(i){
-            $('#diminish').addClass('fa fa-wrench');
+            $('#diminish').addClass('sign cursor');
             $('#diminish').addClass("cursor").text($diminish.substring(0, i));
             if(i < $diminish.length){
                 setTimeout(function(){
@@ -219,7 +219,7 @@ var initProgram = setTimeout(function(){
         }
 
         function initDeve(i){
-            $('#develop').addClass('fa fa-wrench');
+            $('#develop').addClass('sign cursor');
             $('#develop').addClass("cursor").text($develop.substring(0, i));
             if(i < $develop.length){
                 setTimeout(function(){
@@ -234,7 +234,7 @@ var initProgram = setTimeout(function(){
         }
 
         function initBoo(i){
-            $('#boost').addClass('fa fa-wrench');
+            $('#boost').addClass('sign cursor');
             $('#boost').addClass("cursor").text($boost.substring(0, i));
             if(i < $boost.length){
                 setTimeout(function(){
@@ -249,7 +249,7 @@ var initProgram = setTimeout(function(){
         }
 
         function initData(i){
-            $('#database').addClass('fa fa-wrench');
+            $('#database').addClass('sign cursor');
             $('#database').addClass("cursor").text($database.substring(0, i));
             if(i < $database.length){
                 setTimeout(function(){
@@ -517,34 +517,6 @@ var initProgram = setTimeout(function(){
                 }, 35);
             }else{
                 $('#website').removeClass("cursor");
-                setTimeout(function (){
-                    initGitHub(0);
-                }, 1500);
-            }
-        }
-
-        function initGitHub(i) {
-            $('#github').addClass("sign cursor").text($github.substring(0, i));
-            if(i < $github.length){
-                setTimeout(function() {
-                    initGitHub( i + 1);
-                }, 35);
-            }else{
-                $('#github').removeClass("cursor");
-                setTimeout(function (){
-                    initResume(0);
-                }, 1500);
-            }
-        }
-
-        function initResume(i) {
-            $('#resume').addClass("sign cursor").text($resume.substring(0, i));
-            if(i < $resume.length){
-                setTimeout(function() {
-                    initResume( i + 1);
-                }, 35);
-            }else{
-                $('#resume').removeClass("cursor");
                 setTimeout(function (){
                     initPhoneNum(0);
                 }, 1500);
