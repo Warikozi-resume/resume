@@ -22,12 +22,16 @@ var initProgram = setTimeout(function(){
     var greeting = "";
     var $edu = "Unversity of Marland Globle Compass";
     var $name = "Education";
-    var $alias = " Aug 2023 - Aug 2025"
+    var $alias = " Aug 2023 - Present"
     var $occupation  = "Software Development and Security";
-    var $frontEnd  = "Bachelor’s degree in software development and security\n" +
-        "Coursework: Software Development, Cloud Programming, and\n" +
-        "Cybersecurity\n" +
-        "GPA: 3.7";
+    var $frontEnd  = "SOFTWARE DEVELOPMENT EDUCATION";
+    var $dev = "-Enhanced productivity through refined code and architectural patterns";
+    var $enhance = "-Diminished development time by 30% through efficient algorithm selection and implementation";
+    var $diminish = "-Developed expertise in Microservices architecture and containerization for 600+ users.";
+    var $develop = "-Boosted system reliability through proven design patterns";
+    var $boost = "-Enhanced database performance through indexing and query optimization";
+    var $database = "-Applied data storage solutions meeting regulatory requirements";
+    var $applied = "SECURITY EDUCATION";
     var $JSFrameworks = "Austin Community College";
     var $JSLibs = "Aug 2018 - Aug 2020";
     var $CSSFrameworks = "Associate degree of Applied Science in Local Area Network\n" +
@@ -53,20 +57,10 @@ var initProgram = setTimeout(function(){
         "• Find ways for customers to get the most out of their wireless\n" +
         "network.";
     var $h = "Profile";
-    var $habitpara = "As a student near graduation in Cyber Operations\n" +
-        "with a specialization in software\n" +
-        "development and security, I bring\n" +
-        "comprehensive knowledge of the\n" +
-        "secure software development lifecycle\n" +
-        "and cybersecurity frameworks. I am\n" +
-        "proficient in designing and\n" +
-        "implementing secure architectures for\n" +
-        "enterprise systems, with strengths in\n" +
-        "threat modeling and vulnerability\n" +
-        "assessment.";
+    var $habitpara = "Comprehensive expertise in software development lifecycle and cybersecurity frameworks has been evolved through studies in Cyber Operations with specialization in software development and security. Designed Secure enterprise architectures, implementing threat modeling to cut down risk exposure, and configuring security controls across network devices. Weekly managed code audits and vulnerability assessment projects. Proficiency in C++, Java, and Python has been demonstrated, with expertise in NIST Cybersecurity Framework and MITRE ATT&CK, and experience with Windows Server, Linux, and security tools including Burp Suite, Nessus, and Metasploit.";
     var $myname = "Name: Boney Warikozi";
     var $myemail = "Email: Boney.Warikozi@gmail.com";
-    var $website = "Website: https://security-engineer.com";
+    var $website = "Website: https://security-engineer.com --> Coming soon";
     var $github = " GitHub: https://github.com/Boney5889";
     var $resume = "Resume: https://Boney5889.github.io/Boney-Warikozi/";
     var $phone = "Phone : 501-333-4371";
@@ -173,6 +167,111 @@ var initProgram = setTimeout(function(){
                 }, 35);
             }else{
                 $('#frontEnd').removeClass("cursor");
+                setTimeout(function() {
+                    initDev(0);
+                }, 1500);
+            }
+        }
+
+        function initDev(i){
+            $('#dev').addClass('fa fa-wrench');
+            $('#dev').addClass("cursor").text($dev.substring(0, i));
+            if(i < $dev.length){
+                setTimeout(function(){
+                    initDev(i + 1);
+                }, 35);
+            }else{
+                $('#dev').removeClass("cursor");
+                setTimeout(function() {
+                    initEnh(0);
+                }, 1500);
+            }
+        }
+
+        function initEnh(i){
+            $('#enhance').addClass('fa fa-wrench');
+            $('#enhance').addClass("cursor").text($enhance.substring(0, i));
+            if(i < $enhance.length){
+                setTimeout(function(){
+                    initEnh(i + 1);
+                }, 35);
+            }else{
+                $('#enhance').removeClass("cursor");
+                setTimeout(function() {
+                    initDim(0);
+                }, 1500);
+            }
+        }
+
+        function initDim(i){
+            $('#diminish').addClass('fa fa-wrench');
+            $('#diminish').addClass("cursor").text($diminish.substring(0, i));
+            if(i < $diminish.length){
+                setTimeout(function(){
+                    initDim(i + 1);
+                }, 35);
+            }else{
+                $('#diminish').removeClass("cursor");
+                setTimeout(function() {
+                    initDeve(0);
+                }, 1500);
+            }
+        }
+
+        function initDeve(i){
+            $('#develop').addClass('fa fa-wrench');
+            $('#develop').addClass("cursor").text($develop.substring(0, i));
+            if(i < $develop.length){
+                setTimeout(function(){
+                    initDeve(i + 1);
+                }, 35);
+            }else{
+                $('#develop').removeClass("cursor");
+                setTimeout(function() {
+                    initBoo(0);
+                }, 1500);
+            }
+        }
+
+        function initBoo(i){
+            $('#boost').addClass('fa fa-wrench');
+            $('#boost').addClass("cursor").text($boost.substring(0, i));
+            if(i < $boost.length){
+                setTimeout(function(){
+                    initBoo(i + 1);
+                }, 35);
+            }else{
+                $('#boost').removeClass("cursor");
+                setTimeout(function() {
+                    initData(0);
+                }, 1500);
+            }
+        }
+
+        function initData(i){
+            $('#database').addClass('fa fa-wrench');
+            $('#database').addClass("cursor").text($database.substring(0, i));
+            if(i < $database.length){
+                setTimeout(function(){
+                    initData(i + 1);
+                }, 35);
+            }else{
+                $('#database').removeClass("cursor");
+                setTimeout(function() {
+                    initApp(0);
+                }, 1500);
+            }
+        }
+
+        function initApp(i){
+            $('#applied').addClass('fa fa-wrench');
+            $('#applied').addClass("cursor").text($applied.substring(0, i));
+            if(i < $applied.length){
+                setTimeout(function(){
+                    initApp(i + 1);
+                }, 35);
+            }else{
+                $('#applied').removeClass("cursor");
                 setTimeout(function() {
                     initJSFrameworks(0);
                 }, 1500);
