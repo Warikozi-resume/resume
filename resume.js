@@ -32,6 +32,14 @@ var initProgram = setTimeout(function(){
     var $boost = "* Enhanced database performance through indexing and query optimization.";
     var $database = "* Applied data storage solutions meeting regulatory requirements.";
     var $applied = "SECURITY EDUCATION";
+    var $protect = "* Protected sensitive data through advanced encryption protocol.";
+    var $create = "* Created security architectures meeting NIST framework guidelines.";
+    var $conduct = "* Conducted risk assessments using NIST framework methodology.";
+    var $identy = "* Identified and mitigated critical vulnerabilities through proactive monitoring.";
+    var $compliy = "* Compliance Frameworks & Regulatory Requirements.";
+    var $ensure = "* Ensured HIPAA compliance in simulated healthcare environments.";
+    var $maintain = "* Maintained PCI-DSS standards for simulated financial systems.";
+    var $impose = "* Imposed OWASP security guidelines.";
     var $JSFrameworks = "Austin Community College";
     var $JSLibs = "Aug 2018 - Aug 2020";
     var $CSSFrameworks = "Associate degree of Applied Science in Local Area Network\n" +
@@ -160,7 +168,7 @@ var initProgram = setTimeout(function(){
 
         function initFrontEnd(i){
             $('#front-end-span').addClass('fa fa-wrench');
-            $('#frontEnd').addClass("cursor").text($frontEnd.substring(0, i));
+            $('#frontEnd').addClass("fa").text($frontEnd.substring(0, i));
             if(i < $frontEnd.length){
                 setTimeout(function(){
                     initFrontEnd(i + 1);
@@ -272,6 +280,126 @@ var initProgram = setTimeout(function(){
                 }, 35);
             }else{
                 $('#applied').removeClass("cursor");
+                setTimeout(function() {
+                    initPro(0);
+                }, 1500);
+            }
+        }
+
+        function initPro(i){
+            $('#protect').addClass('sign cursor');
+            $('#protect').addClass("cursor").text($protect.substring(0, i));
+            if(i < $protect.length){
+                setTimeout(function(){
+                    initPro(i + 1);
+                }, 35);
+            }else{
+                $('#protect').removeClass("cursor");
+                setTimeout(function() {
+                    initCre(0);
+                }, 1500);
+            }
+        }
+
+        function initCre(i){
+            $('#create').addClass('sign cursor');
+            $('#create').addClass("cursor").text($create.substring(0, i));
+            if(i < $create.length){
+                setTimeout(function(){
+                    initCre(i + 1);
+                }, 35);
+            }else{
+                $('#create').removeClass("cursor");
+                setTimeout(function() {
+                    initCon(0);
+                }, 1500);
+            }
+        }
+
+        function initCon(i){
+            $('#conduct').addClass('sign cursor');
+            $('#conduct').addClass("cursor").text($conduct.substring(0, i));
+            if(i < $conduct.length){
+                setTimeout(function(){
+                    initCon(i + 1);
+                }, 35);
+            }else{
+                $('#conduct').removeClass("cursor");
+                setTimeout(function() {
+                    initIden(0);
+                }, 1500);
+            }
+        }
+
+        function initIden(i){
+            $('#identy').addClass('sign cursor');
+            $('#identy').addClass("cursor").text($identy.substring(0, i));
+            if(i < $identy.length){
+                setTimeout(function(){
+                    initIden(i + 1);
+                }, 35);
+            }else{
+                $('#identy').removeClass("cursor");
+                setTimeout(function() {
+                    initComp(0);
+                }, 1500);
+            }
+        }
+
+        function initComp(i){
+            $('#compliy').addClass('sign cursor');
+            $('#compliy').addClass("cursor").text($compliy.substring(0, i));
+            if(i < $compliy.length){
+                setTimeout(function(){
+                    initComp(i + 1);
+                }, 35);
+            }else{
+                $('#compliy').removeClass("cursor");
+                setTimeout(function() {
+                    initEns(0);
+                }, 1500);
+            }
+        }
+
+        function initEns(i){
+            $('#ensure').addClass('sign cursor');
+            $('#ensure').addClass("cursor").text($ensure.substring(0, i));
+            if(i < $ensure.length){
+                setTimeout(function(){
+                    initEns(i + 1);
+                }, 35);
+            }else{
+                $('#ensure').removeClass("cursor");
+                setTimeout(function() {
+                    initMain(0);
+                }, 1500);
+            }
+        }
+
+        function initMain(i){
+            $('#maintain').addClass('sign cursor');
+            $('#maintain').addClass("cursor").text($maintain.substring(0, i));
+            if(i < $maintain.length){
+                setTimeout(function(){
+                    initMain(i + 1);
+                }, 35);
+            }else{
+                $('#maintain').removeClass("cursor");
+                setTimeout(function() {
+                    initImp(0);
+                }, 1500);
+            }
+        }
+
+        function initImp(i){
+            $('#impose').addClass('sign cursor');
+            $('#impose').addClass("cursor").text($impose.substring(0, i));
+            if(i < $impose.length){
+                setTimeout(function(){
+                    initImp(i + 1);
+                }, 35);
+            }else{
+                $('#impose').removeClass("cursor");
                 setTimeout(function() {
                     initJSFrameworks(0);
                 }, 1500);
