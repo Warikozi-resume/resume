@@ -174,7 +174,7 @@ var initProgram = setTimeout(function(){
         }
 
         function initDev(i){
-            $('#dev').addClass('fa fa-wrench');
+            $('#dev').addClass('sign cursor');
             $('#dev').addClass("cursor").text($dev.substring(0, i));
             if(i < $dev.length){
                 setTimeout(function(){
