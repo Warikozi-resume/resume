@@ -65,7 +65,7 @@ var initProgram = setTimeout(function(){
     var $escal = "* Implemented process improvements resulting in 40% reduction in escalation rates.";
     var $branding = "Everise";
     var $designAnimation = "May 17, 2021–April 2022";
-    var $rise = "Tier 1 Technical Support Agent";
+    var $rise = "Technical Support Agent";
     var $para = "* Analyzed and resolved complex mesh network topology issues.";
     var $issue = "* Collaborated effectively in teams of 12+ technical specialists, leading systematic diagnostic approaches for node-to-node communication failures.";
     var $advance = "* Advanced  and applied comprehensive diagnostic methodology for node-to-node communication failures.";
@@ -898,10 +898,11 @@ var initProgram = setTimeout(function(){
                     initReso(i + 1);
                 }, 25);
             }else{
-                // $('#para').removeClass("cursor");
-                //setTimeout(function () {
-                // inithabit(0);
-                // }, 150);
+                $('#reso').removeClass("cursor");
+                setTimeout(function () {
+                    initTitleMyHabit(0);
+                    initSkills(0);
+                 }, 150);
 
             }
         }
@@ -984,10 +985,7 @@ var initProgram = setTimeout(function(){
                     initPhoneNum(i + 1);
                 }, 25);
             }else{
-                $('#phone').removeClass("cursor");
-                setTimeout(function () {
-                    initTitleMyHabit(0);
-                }, 150);
+               //
             }
         }
 
@@ -1012,10 +1010,7 @@ var initProgram = setTimeout(function(){
                     initMyHabit(i + 1);
                 }, 25);
             }else{
-                $('#myhabits').removeClass("cursor");
-                setTimeout(function (){
-                    initSkills(0);
-                }, 150);
+               //
             }
         }
 
