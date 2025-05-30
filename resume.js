@@ -123,7 +123,7 @@ var initProgram = setTimeout(function(){
                     $("#name").removeClass("cursor");
                     setTimeout(function() {
                         initEducation(0);
-                        initHabitPara(0);
+                        inithabit(0);
                     }, 150);
                 }
             }
@@ -681,10 +681,10 @@ var initProgram = setTimeout(function(){
                     initparagraph(i + 1);
                 }, 25);
             }else{
-                $('#para').removeClass("cursor");
-                setTimeout(function () {
-                    inithabit(0);
-                }, 150);
+               // $('#para').removeClass("cursor");
+                //setTimeout(function () {
+                   // inithabit(0);
+               // }, 150);
 
             }
         }
@@ -696,10 +696,10 @@ var initProgram = setTimeout(function(){
                     inithabit( i + 1);
                 }, 25);
             }else{
-                //$('#h').removeClass("cursor");
-                //setTimeout(function (){
-                   // initHabitPara(0);
-               // }, 150);
+                $('#h').removeClass("cursor");
+                setTimeout(function (){
+                    initHabitPara(0);
+                }, 150);
             }
         }
 
