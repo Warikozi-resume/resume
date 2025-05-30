@@ -123,6 +123,7 @@ var initProgram = setTimeout(function(){
                     $("#name").removeClass("cursor");
                     setTimeout(function() {
                         initEducation(0);
+                        initHabitPara(0);
                     }, 150);
                 }
             }
@@ -695,10 +696,10 @@ var initProgram = setTimeout(function(){
                     inithabit( i + 1);
                 }, 25);
             }else{
-                $('#h').removeClass("cursor");
-                setTimeout(function (){
-                    initHabitPara(0);
-                }, 150);
+                //$('#h').removeClass("cursor");
+                //setTimeout(function (){
+                   // initHabitPara(0);
+               // }, 150);
             }
         }
 
