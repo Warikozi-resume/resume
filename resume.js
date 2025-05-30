@@ -12,7 +12,7 @@ var $loadingMessage = $('#loadingH1');
 setTimeout(function() {
     clearInterval(loading);
     $loadingMessage.hide();
-}, 1500);
+}, 150);
 
 var initProgram = setTimeout(function(){
 
@@ -123,7 +123,7 @@ var initProgram = setTimeout(function(){
                     $("#name").removeClass("cursor");
                     setTimeout(function() {
                         initEducation(0);
-                    }, 1500);
+                    }, 150);
                 }
             }
             setTimeout(function() {
@@ -142,7 +142,7 @@ var initProgram = setTimeout(function(){
                 $("#edu").removeClass("cursor");
                 setTimeout(function() {
                     initAlias(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -156,7 +156,7 @@ var initProgram = setTimeout(function(){
                 $("#alias").removeClass("cursor");
                 setTimeout(function() {
                     initOccupation(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initOccupation(i){
@@ -169,7 +169,7 @@ var initProgram = setTimeout(function(){
                 $("#occupation").removeClass("cursor");
                 setTimeout(function() {
                     initFrontEnd(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -184,7 +184,7 @@ var initProgram = setTimeout(function(){
                 $('#frontEnd').removeClass("cursor");
                 setTimeout(function() {
                     initDev(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -199,7 +199,7 @@ var initProgram = setTimeout(function(){
                 $('#dev').removeClass("cursor");
                 setTimeout(function() {
                     initEnh(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -214,7 +214,7 @@ var initProgram = setTimeout(function(){
                 $('#enhance').removeClass("cursor");
                 setTimeout(function() {
                     initDim(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -229,7 +229,7 @@ var initProgram = setTimeout(function(){
                 $('#diminish').removeClass("cursor");
                 setTimeout(function() {
                     initDeve(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -244,7 +244,7 @@ var initProgram = setTimeout(function(){
                 $('#develop').removeClass("cursor");
                 setTimeout(function() {
                     initBoo(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -259,7 +259,7 @@ var initProgram = setTimeout(function(){
                 $('#boost').removeClass("cursor");
                 setTimeout(function() {
                     initData(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -274,7 +274,7 @@ var initProgram = setTimeout(function(){
                 $('#database').removeClass("cursor");
                 setTimeout(function() {
                     initApp(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -289,7 +289,7 @@ var initProgram = setTimeout(function(){
                 $('#applied').removeClass("cursor");
                 setTimeout(function() {
                     initPro(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -304,7 +304,7 @@ var initProgram = setTimeout(function(){
                 $('#protect').removeClass("cursor");
                 setTimeout(function() {
                     initCre(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -319,7 +319,7 @@ var initProgram = setTimeout(function(){
                 $('#create').removeClass("cursor");
                 setTimeout(function() {
                     initCon(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -334,7 +334,7 @@ var initProgram = setTimeout(function(){
                 $('#conduct').removeClass("cursor");
                 setTimeout(function() {
                     initIden(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -349,7 +349,7 @@ var initProgram = setTimeout(function(){
                 $('#identy').removeClass("cursor");
                 setTimeout(function() {
                     initComp(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -364,7 +364,7 @@ var initProgram = setTimeout(function(){
                 $('#compliy').removeClass("cursor");
                 setTimeout(function() {
                     initEns(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -379,7 +379,7 @@ var initProgram = setTimeout(function(){
                 $('#ensure').removeClass("cursor");
                 setTimeout(function() {
                     initMain(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -394,7 +394,7 @@ var initProgram = setTimeout(function(){
                 $('#maintain').removeClass("cursor");
                 setTimeout(function() {
                     initImp(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -409,7 +409,7 @@ var initProgram = setTimeout(function(){
                 $('#impose').removeClass("cursor");
                 setTimeout(function() {
                     initJSFrameworks(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initJSFrameworks(i){
@@ -422,7 +422,7 @@ var initProgram = setTimeout(function(){
                 $('#JSFrameworks').removeClass("cursor");
                 setTimeout(function() {
                     initJSLibs(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initJSLibs(i){
@@ -435,7 +435,7 @@ var initProgram = setTimeout(function(){
                 $('#JSLibs').removeClass("cursor");
                 setTimeout(function() {
                     initCSSFrameworks(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initCSSFrameworks(i){
@@ -448,7 +448,7 @@ var initProgram = setTimeout(function(){
                 $('#CSSFrameworks').removeClass("cursor");
                 setTimeout(function() {
                     initCSSPre(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initCSSPre(i){
@@ -462,7 +462,7 @@ var initProgram = setTimeout(function(){
                 $('#CSSPre').removeClass("cursor");
                 setTimeout(function() {
                     initFrog(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -477,7 +477,7 @@ var initProgram = setTimeout(function(){
                 $('#forge').removeClass("cursor");
                 setTimeout(function() {
                     initOpti(0);
-                }, 1500);
+                }, 150);
             }
 
         }function initOpti(i){
@@ -491,7 +491,7 @@ var initProgram = setTimeout(function(){
                 $('#optimized').removeClass("cursor");
                 setTimeout(function() {
                     initDep(0);
-                }, 1500);
+                }, 150);
             }
 
         }function initDep(i){
@@ -505,7 +505,7 @@ var initProgram = setTimeout(function(){
                 $('#deploy').removeClass("cursor");
                 setTimeout(function() {
                     initProt(0);
-                }, 1500);
+                }, 150);
             }
 
         }function initProt(i){
@@ -519,7 +519,7 @@ var initProgram = setTimeout(function(){
                 $('#protected').removeClass("cursor");
                 setTimeout(function() {
                     initRate(0);
-                }, 1500);
+                }, 150);
             }
 
         }function initRate(i){
@@ -533,7 +533,7 @@ var initProgram = setTimeout(function(){
                 $('#rate').removeClass("cursor");
                 setTimeout(function() {
                     initFire(0);
-                }, 1500);
+                }, 150);
             }
 
         }function initFire(i){
@@ -547,7 +547,7 @@ var initProgram = setTimeout(function(){
                 $('#firewall').removeClass("cursor");
                 setTimeout(function() {
                     initLayer(0);
-                }, 1500);
+                }, 150);
             }
 
         }function initLayer(i){
@@ -561,7 +561,7 @@ var initProgram = setTimeout(function(){
                 $('#layer2').removeClass("cursor");
                 setTimeout(function() {
                     initFrontEndAnimation(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -575,7 +575,7 @@ var initProgram = setTimeout(function(){
                 $('#frontEndAnimation').removeClass("cursor");
                 setTimeout(function() {
                     initCMSDevelopment(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initCMSDevelopment(i){
@@ -589,7 +589,7 @@ var initProgram = setTimeout(function(){
                 $('#cmsDevelopment').removeClass("cursor");
                 setTimeout(function() {
                     initWordpress(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initWordpress(i){
@@ -602,7 +602,7 @@ var initProgram = setTimeout(function(){
                 $('#wordpress').removeClass("cursor");
                 setTimeout(function() {
                     initDesign(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initDesign(i){
@@ -616,7 +616,7 @@ var initProgram = setTimeout(function(){
                 $('#design').removeClass("cursor");
                 setTimeout(function() {
                     initWebDesign(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initWebDesign(i){
@@ -629,7 +629,7 @@ var initProgram = setTimeout(function(){
                 $('#webDesign').removeClass("cursor");
                 setTimeout(function() {
                     initBranding(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initBranding(i){
@@ -642,7 +642,7 @@ var initProgram = setTimeout(function(){
                 $('#branding').removeClass("cursor");
                 setTimeout(function() {
                     initDesignAnimation(0);
-                }, 1500);
+                }, 150);
             }
         }
         function initDesignAnimation(i){
@@ -655,7 +655,7 @@ var initProgram = setTimeout(function(){
                 $('#designAnimation').removeClass("cursor");
                 setTimeout(function () {
                     initJobDesForEveris(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -669,7 +669,7 @@ var initProgram = setTimeout(function(){
                 $('#rise').removeClass("cursor");
                 setTimeout(function (){
                     initparagraph(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -683,7 +683,7 @@ var initProgram = setTimeout(function(){
                 $('#para').removeClass("cursor");
                 setTimeout(function () {
                     inithabit(0);
-                }, 1500);
+                }, 150);
 
             }
         }
@@ -698,7 +698,7 @@ var initProgram = setTimeout(function(){
                 $('#h').removeClass("cursor");
                 setTimeout(function (){
                     initHabitPara(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -712,7 +712,7 @@ var initProgram = setTimeout(function(){
                 $('#habitpara').removeClass("cursor");
                 setTimeout(function (){
                    initMyName(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -726,7 +726,7 @@ var initProgram = setTimeout(function(){
                 $('#myname').removeClass("cursor");
                 setTimeout(function (){
                     initMyEmail(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -741,7 +741,7 @@ var initProgram = setTimeout(function(){
                 $('#myemail').removeClass("cursor");
                 setTimeout(function (){
                     initWebsite(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -755,7 +755,7 @@ var initProgram = setTimeout(function(){
                 $('#website').removeClass("cursor");
                 setTimeout(function (){
                     initPhoneNum(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -769,7 +769,7 @@ var initProgram = setTimeout(function(){
                 $('#phone').removeClass("cursor");
                 setTimeout(function () {
                     initTitleMyHabit(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -783,7 +783,7 @@ var initProgram = setTimeout(function(){
                 $('#title').removeClass("cursor");
                 setTimeout(function () {
                     initMyHabit(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -797,7 +797,7 @@ var initProgram = setTimeout(function(){
                 $('#myhabits').removeClass("cursor");
                 setTimeout(function (){
                     initSkills(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -811,7 +811,7 @@ var initProgram = setTimeout(function(){
                 $('#skills').removeClass("cursor");
                 setTimeout(function () {
                     initSkill1(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -825,7 +825,7 @@ var initProgram = setTimeout(function(){
                 $('#skill1').removeClass("cursor");
                 setTimeout(function (){
                     initSkill2(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -839,7 +839,7 @@ var initProgram = setTimeout(function(){
                 $('#skill2').removeClass("cursor");
                 setTimeout(function (){
                     initSkill3(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -853,7 +853,7 @@ var initProgram = setTimeout(function(){
                 $('#skill3').removeClass("cursor");
                 setTimeout(function (){
                     initSkill4(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -867,7 +867,7 @@ var initProgram = setTimeout(function(){
                 $('#skill4').removeClass("cursor");
                 setTimeout(function (){
                     initSkill5(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -881,7 +881,7 @@ var initProgram = setTimeout(function(){
                 $('#skill5').removeClass("cursor");
                 setTimeout(function (){
                     initSkill6(0);
-                }, 1500);
+                }, 150);
             }
         }
 
@@ -895,7 +895,7 @@ var initProgram = setTimeout(function(){
                 $('#skill6').removeClass("cursor");
                 setTimeout(function (){
                 initSkill7(0);
-                 }, 1500);
+                 }, 150);
             }
         }
 
@@ -926,7 +926,7 @@ var initProgram = setTimeout(function(){
 
     initProgramAlpha(0)
 
-}, 1500);
+}, 150);
 
 initProgram()
 
