@@ -66,15 +66,19 @@ var initProgram = setTimeout(function(){
     var $branding = "Everise";
     var $designAnimation = "May 17, 2021–April 2022";
     var $rise = "Tier 1 Technical Support Agent";
-    var $para = "• Worked with a wireless mesh system.\n" +
-        "• Effectively troubleshoot the mesh system through a framework and\n" +
-        "explain technical information to users of all levels.\n" +
-        "• Find ways for customers to get the most out of their wireless\n" +
-        "network.";
+    var $para = "* Analyzed and resolved complex mesh network topology issues.";
+    var $issue = "* Collaborated effectively in teams of 12+ technical specialists, leading systematic diagnostic approaches for node-to-node communication failures.";
+    var $advance = "* Advanced  and applied comprehensive diagnostic methodology for node-to-node communication failures.";
+    var $rank = "* Ranked among top performers with 92% resolution rate on complex mesh network.";
+    var $amazon = "*  Contributed to Amazon eero partnership success, resolving over 250 high-priority cases monthly with demonstrated cost savings through reduced callbacks.";
+    var $back = "* Reduced customer callback rate by 28% through thorough initial issue resolution.";
+    var $high = "*  Maintained high customer satisfaction ratings through clear technical communication.";
+    var $led = "* Led comprehensive mesh network optimization project, implementing systematic diagnostic methodology that reduced customer callback rate by 28%.";
+    var $reso = "* Decreased customer callback rate by 28% through thorough initial issue resolution.";
     var $h = "Profile";
     var $habitpara = "Comprehensive expertise in software development lifecycle and cybersecurity frameworks has been evolved through studies in Cyber Operations with specialization in software development and security. Designed Secure enterprise architectures, implementing threat modeling to cut down risk exposure, and configuring security controls across network devices. Weekly managed code audits and vulnerability assessment projects. Proficiency in C++, Java, and Python has been demonstrated, with expertise in NIST Cybersecurity Framework and MITRE ATT&CK, and experience with Windows Server, Linux, and security tools including Burp Suite, Nessus, and Metasploit.";
     var $myname = "* Name: Boney Warikozi";
-    var $myemail = "* Email: Boney.Warikozi@gmail.com";
+    var $myemail" = "* Email: Boney.Warikozi@gmail.com";
     var $website = "* Website: https://security-engineer.com --> Coming soon";
     var $github = " GitHub: ";
     var $resume = "Resume: ";
@@ -767,10 +771,137 @@ var initProgram = setTimeout(function(){
                     initparagraph(i + 1);
                 }, 25);
             }else{
-               // $('#para').removeClass("cursor");
+                $('#para').removeClass("cursor");
+                setTimeout(function () {
+                    initIssue(0);
+                }, 150);
+
+            }
+        }
+
+
+        function initIssue(i){
+            $('#issue').addClass("sign cursor").text($issue.substring(0, i));
+            if(i < $issue.length){
+                setTimeout(function(){
+                    initIssue(i + 1);
+                }, 25);
+            }else{
+                 $('#issue').removeClass("cursor");
+                setTimeout(function () {
+                 initAdva(0);
+                 }, 150);
+
+            }
+        }
+
+
+        function initAdva(i){
+            $('#advance').addClass("sign cursor").text($advance.substring(0, i));
+            if(i < $advance.length){
+                setTimeout(function(){
+                    initAdva(i + 1);
+                }, 25);
+            }else{
+                $('#advance').removeClass("cursor");
+                setTimeout(function () {
+                 initRank(0);
+                 }, 150);
+
+            }
+        }
+
+
+        function initRank(i){
+            $('#rank').addClass("sign cursor").text($rank.substring(0, i));
+            if(i < $rank.length){
+                setTimeout(function(){
+                    initRank(i + 1);
+                }, 25);
+            }else{
+                 $('#rank').removeClass("cursor");
+                 setTimeout(function () {
+                 initAmazon(0);
+                 }, 150);
+
+            }
+        }
+
+
+        function initAmazon(i){
+            $('#amazon').addClass("sign cursor").text($amazon.substring(0, i));
+            if(i < $amazon.length){
+                setTimeout(function(){
+                    initAmazon(i + 1);
+                }, 25);
+            }else{
+                $('#amazon').removeClass("cursor");
+                setTimeout(function () {
+                 initBack(0);
+                 }, 150);
+
+            }
+        }
+
+
+        function initBack(i){
+            $('#back').addClass("sign cursor").text($back.substring(0, i));
+            if(i < $back.length){
+                setTimeout(function(){
+                    initBack(i + 1);
+                }, 25);
+            }else{
+                $('#back').removeClass("cursor");
+                setTimeout(function () {
+                 initHigh(0);
+                 }, 150);
+
+            }
+        }
+
+        function initHigh(i){
+            $('#high').addClass("sign cursor").text($high.substring(0, i));
+            if(i < $high.length){
+                setTimeout(function(){
+                    initHigh(i + 1);
+                }, 25);
+            }else{
+                $('#high').removeClass("cursor");
+                setTimeout(function () {
+                 initLed(0);
+                 }, 150);
+
+            }
+        }
+
+
+        function initLed(i){
+            $('#led').addClass("sign cursor").text($led.substring(0, i));
+            if(i < $led.length){
+                setTimeout(function(){
+                    initLed(i + 1);
+                }, 25);
+            }else{
+                 $('#led').removeClass("cursor");
+                 setTimeout(function () {
+                 initReso(0);
+                 }, 150);
+
+            }
+        }
+
+
+        function initReso(i){
+            $('#reso').addClass("sign cursor").text($reso.substring(0, i));
+            if(i < $reso.length){
+                setTimeout(function(){
+                    initReso(i + 1);
+                }, 25);
+            }else{
+                // $('#para').removeClass("cursor");
                 //setTimeout(function () {
-                   // inithabit(0);
-               // }, 150);
+                // inithabit(0);
+                // }, 150);
 
             }
         }
