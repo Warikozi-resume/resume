@@ -44,9 +44,14 @@ var initProgram = setTimeout(function(){
     var $JSLibs = "Aug 2018 - Aug 2020";
     var $CSSFrameworks = "Associate degree of Applied Science in Local Area Network\n" +
         "Administration";
-    var $CSSPre = "Coursework: Cybersecurity, Advance Routers and Switches, Network\n" +
-        "TCP/IP, Cloud Computing, Firewalls and Network Security,\n \n" +
-        "GPA: 3.6";
+    var $CSSPre = "NETWORK ADMINISTRATION EDUCATION";
+    var $forge = "* Forged  networks supporting 500+ concurrent users.";
+    var $optimized = "* Optimized network throughput through proper VLAN segmentation.";
+    var $deploy = "* Deployed WAN solutions connecting multiple geographic locations.";
+    var $protected = "* Protected against common network attacks through security measures.";
+    var $rate = "* Optimized protocol performance improving packet delivery rates.";
+    var $firewall = "* Enforced  firewalls rules reducing unauthorized access.";
+    var $layer2 = "* Analyzed layer 2 packages using Wireshark."
     var $frontEndAnimation = "WORK EXPERIENCE";
     var $cmsDevelopment = "Charter Communication - Spectrum";
     var $wordpress = "April 2022–present";
@@ -69,8 +74,8 @@ var initProgram = setTimeout(function(){
     var $myname = "Name: Boney Warikozi";
     var $myemail = "Email: Boney.Warikozi@gmail.com";
     var $website = "Website: https://security-engineer.com --> Coming soon";
-    var $github = " GitHub: https://github.com/Boney5889";
-    var $resume = "Resume: https://Boney5889.github.io/Boney-Warikozi/";
+    var $github = " GitHub: ";
+    var $resume = "Resume: ";
     var $phone = "Phone : 501-333-4371";
     var $title = "Habits"
     var $myhabits = "Dedicated technologist combining rigorous analytical thinking with disciplined physical training practices. Through consistent engagement in competitive combat sports (Boxing and Muay Thai), I've developed exceptional mental resilience and strategic problem-solving abilities. These athletic pursuits complement my technical expertise in Computer Science, fostering a unique combination of logical precision and creative solution development. Regular participation in high-intensity training sessions has honed my time management skills, allowing me to maintain peak academic performance while pursuing advanced technical projects";
@@ -445,6 +450,7 @@ var initProgram = setTimeout(function(){
             }
         }
         function initCSSPre(i){
+            $('#CSSPre').addClass('fa ');
             $('#CSSPre').addClass("sign cursor").text($CSSPre.substring(0, i));
             if(i < $CSSPre.length){
                 setTimeout(function(){
@@ -453,10 +459,110 @@ var initProgram = setTimeout(function(){
             }else{
                 $('#CSSPre').removeClass("cursor");
                 setTimeout(function() {
+                    initFrog(0);
+                }, 1500);
+            }
+        }
+
+        function initFrog(i){
+            $('#forge').addClass('sign cursor');
+            $('#forge').addClass("cursor").text($forge.substring(0, i));
+            if(i < $forge.length){
+                setTimeout(function(){
+                    initFrog(i + 1);
+                }, 35);
+            }else{
+                $('#forge').removeClass("cursor");
+                setTimeout(function() {
+                    initOpti(0);
+                }, 1500);
+            }
+
+        }function initOpti(i){
+            $('#optimized').addClass('sign cursor');
+            $('#optimized').addClass("cursor").text($optimized.substring(0, i));
+            if(i < $optimized.length){
+                setTimeout(function(){
+                    initOpti(i + 1);
+                }, 35);
+            }else{
+                $('#optimized').removeClass("cursor");
+                setTimeout(function() {
+                    initDep(0);
+                }, 1500);
+            }
+
+        }function initDep(i){
+            $('#deploy').addClass('sign cursor');
+            $('#deploy').addClass("cursor").text($deploy.substring(0, i));
+            if(i < $deploy.length){
+                setTimeout(function(){
+                    initDep(i + 1);
+                }, 35);
+            }else{
+                $('#deploy').removeClass("cursor");
+                setTimeout(function() {
+                    initProt(0);
+                }, 1500);
+            }
+
+        }function initProt(i){
+            $('#protected').addClass('sign cursor');
+            $('#protected').addClass("cursor").text($protected.substring(0, i));
+            if(i < $protected.length){
+                setTimeout(function(){
+                    initProt(i + 1);
+                }, 35);
+            }else{
+                $('#protected').removeClass("cursor");
+                setTimeout(function() {
+                    initRate(0);
+                }, 1500);
+            }
+
+        }function initRate(i){
+            $('#rate').addClass('sign cursor');
+            $('#rate').addClass("cursor").text($rate.substring(0, i));
+            if(i < $rate.length){
+                setTimeout(function(){
+                    initRate(i + 1);
+                }, 35);
+            }else{
+                $('#rate').removeClass("cursor");
+                setTimeout(function() {
+                    initFire(0);
+                }, 1500);
+            }
+
+        }function initFire(i){
+            $('#firewall').addClass('sign cursor');
+            $('#firewall').addClass("cursor").text($firewall.substring(0, i));
+            if(i < $firewall.length){
+                setTimeout(function(){
+                    initFire(i + 1);
+                }, 35);
+            }else{
+                $('#firewall').removeClass("cursor");
+                setTimeout(function() {
+                    initLayer(0);
+                }, 1500);
+            }
+
+        }function initLayer(i){
+            $('#layer2').addClass('sign cursor');
+            $('#layer2').addClass("cursor").text($layer2.substring(0, i));
+            if(i < $layer2.length){
+                setTimeout(function(){
+                    initLayer(i + 1);
+                }, 35);
+            }else{
+                $('#layer2').removeClass("cursor");
+                setTimeout(function() {
                     initFrontEndAnimation(0);
                 }, 1500);
             }
         }
+
         function initFrontEndAnimation(i){
             $('#frontEndAnimation').addClass("sign cursor").text($frontEndAnimation.substring(0, i));
             if(i < $frontEndAnimation.length){
