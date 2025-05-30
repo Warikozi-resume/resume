@@ -79,12 +79,14 @@ var initProgram = setTimeout(function(){
     var $phone = "Phone : 501-333-4371";
     var $title = "Habits"
     var $myhabits = "Dedicated technologist combining rigorous analytical thinking with disciplined physical training practices. Through consistent engagement in competitive combat sports (Boxing and Muay Thai), I've developed exceptional mental resilience and strategic problem-solving abilities. These athletic pursuits complement my technical expertise in Computer Science, fostering a unique combination of logical precision and creative solution development. Regular participation in high-intensity training sessions has honed my time management skills, allowing me to maintain peak academic performance while pursuing advanced technical projects";
-    var $skills = "Skills";
-    var $skill1 = "Knowledge of DevSecOps practices and tools";
-    var $skill2 = "Experience in AWS infrastructure, Microsofot Azura cloud, and Database management systems.";
-    var $skill3 = "Knowledge ensuring systems and processes comply with relevant laws and requlations such as NIST and PCI DSS.";
-    var $skill4 = "Strong grasp of multiple programming languages.";
-    var $skill5 = "Secure coding practices and standards.";
+    var $skills = "Technical Skills";
+    var $skill1 = "* Reinforced and maintained a security vulnerability tracking system.";
+    var $skill2 = "* Created automated scripts to continuously monitor security configurations.";
+    var $skill3 = " * Designed a Zero Trust dashboard for real-time monitoring and threat detection.";
+    var $skill4 = "* Administered automated code scanning tools that reduced security vulnerabilities.";
+    var $skill5 = "* Understand data & impact of encrypt all' strategies.";
+    var $skill6 = "* Instituted automated workflows for continuous verification of identity and context.";
+    var $skill7 = "* identified coverage gaps in the Wi-Fi mesh system and implemented strategic AP placement improvements.";
     function initIdentityResults(i){
         $("#message").addClass("sign cursor").text(message.substring(0, i));
         if(i < message.length){
@@ -876,13 +878,37 @@ var initProgram = setTimeout(function(){
                     initSkill5(i + 1);
                 }, 35);
             }else{
-                //$('#skill5').removeClass("cursor");
-                //setTimeout(function (){
-                    //initSkill(0);
-               // }, 1500);
+                $('#skill5').removeClass("cursor");
+                setTimeout(function (){
+                    initSkill6(0);
+                }, 1500);
             }
         }
 
+        function initSkill6(i){
+            $('#skill6').addClass("sign cursor").text($skill6.substring(0, i));
+            if (i < $skill6.length) {
+                setTimeout(function (){
+                    initSkill6(i + 1);
+                }, 35);
+            }else{
+                $('#skill6').removeClass("cursor");
+                setTimeout(function (){
+                initSkill7(0);
+                 }, 1500);
+            }
+        }
+
+        function initSkill7(i){
+            $('#skill7').addClass("sign cursor").text($skill7.substring(0, i));
+            if (i < $skill7.length) {
+                setTimeout(function (){
+                    initSkill7(i + 1);
+                }, 35);
+            }else{
+              //
+            }
+        }
 
     }
 
