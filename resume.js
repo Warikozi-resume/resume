@@ -71,12 +71,12 @@ var initProgram = setTimeout(function(){
         "network.";
     var $h = "Profile";
     var $habitpara = "Comprehensive expertise in software development lifecycle and cybersecurity frameworks has been evolved through studies in Cyber Operations with specialization in software development and security. Designed Secure enterprise architectures, implementing threat modeling to cut down risk exposure, and configuring security controls across network devices. Weekly managed code audits and vulnerability assessment projects. Proficiency in C++, Java, and Python has been demonstrated, with expertise in NIST Cybersecurity Framework and MITRE ATT&CK, and experience with Windows Server, Linux, and security tools including Burp Suite, Nessus, and Metasploit.";
-    var $myname = "Name: Boney Warikozi";
-    var $myemail = "Email: Boney.Warikozi@gmail.com";
-    var $website = "Website: https://security-engineer.com --> Coming soon";
+    var $myname = "* Name: Boney Warikozi";
+    var $myemail = "* Email: Boney.Warikozi@gmail.com";
+    var $website = "* Website: https://security-engineer.com --> Coming soon";
     var $github = " GitHub: ";
     var $resume = "Resume: ";
-    var $phone = "Phone : 501-333-4371";
+    var $phone = "* Phone : 501-333-4371";
     var $title = "Habits"
     var $myhabits = "Dedicated technologist combining rigorous analytical thinking with disciplined physical training practices. Through consistent engagement in competitive combat sports (Boxing and Muay Thai), I've developed exceptional mental resilience and strategic problem-solving abilities. These athletic pursuits complement my technical expertise in Computer Science, fostering a unique combination of logical precision and creative solution development. Regular participation in high-intensity training sessions has honed my time management skills, allowing me to maintain peak academic performance while pursuing advanced technical projects";
     var $skills = "Technical Skills";
