@@ -707,12 +707,12 @@ var initProgram = setTimeout(function(){
             if(i < $habitpara.length){
                 setTimeout(function() {
                     initHabitPara( i + 1);
-                }, 3500);
+                }, 15);
             }else{
                 $('#habitpara').removeClass("cursor");
                 setTimeout(function (){
                    initMyName(0);
-                }, 15000);
+                }, 150);
             }
         }
 
