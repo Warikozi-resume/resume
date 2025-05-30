@@ -5,7 +5,7 @@ var loading = setInterval(function() {
     } else {
         initDot.innerHTML += ".";
     }
-}, 350); // Dot Speed
+}, 250); // Dot Speed
 
 var $loadingMessage = $('#loadingH1');
 
@@ -92,7 +92,7 @@ var initProgram = setTimeout(function(){
         if(i < message.length){
             setTimeout(function(){
                 initIdentityResults(i + 1);
-            }, 35);
+            }, 25);
         }else{
             $('#message').removeClass("cursor");
             var loadingResume = function(){
@@ -108,7 +108,7 @@ var initProgram = setTimeout(function(){
                             $("#loadingMessage2").hide();
                         }, 2000);
                     }
-                }, 350);  // Dot Speed
+                }, 250);  // Dot Speed
             }
             loadingResume();
 
@@ -118,7 +118,7 @@ var initProgram = setTimeout(function(){
                 if(i < $name.length){
                     setTimeout(function(){
                         initName(i + 1);
-                    }, 35);
+                    }, 25);
                 }else{
                     $("#name").removeClass("cursor");
                     setTimeout(function() {
@@ -137,7 +137,7 @@ var initProgram = setTimeout(function(){
             if(i < $edu.length){
                 setTimeout(function(){
                     initEducation(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $("#edu").removeClass("cursor");
                 setTimeout(function() {
@@ -151,7 +151,7 @@ var initProgram = setTimeout(function(){
             if(i < $alias.length){
                 setTimeout(function(){
                     initAlias(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $("#alias").removeClass("cursor");
                 setTimeout(function() {
@@ -164,7 +164,7 @@ var initProgram = setTimeout(function(){
             if(i < $occupation.length){
                 setTimeout(function(){
                     initOccupation(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $("#occupation").removeClass("cursor");
                 setTimeout(function() {
@@ -179,7 +179,7 @@ var initProgram = setTimeout(function(){
             if(i < $frontEnd.length){
                 setTimeout(function(){
                     initFrontEnd(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#frontEnd').removeClass("cursor");
                 setTimeout(function() {
@@ -194,7 +194,7 @@ var initProgram = setTimeout(function(){
             if(i < $dev.length){
                 setTimeout(function(){
                     initDev(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#dev').removeClass("cursor");
                 setTimeout(function() {
@@ -209,7 +209,7 @@ var initProgram = setTimeout(function(){
             if(i < $enhance.length){
                 setTimeout(function(){
                     initEnh(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#enhance').removeClass("cursor");
                 setTimeout(function() {
@@ -224,7 +224,7 @@ var initProgram = setTimeout(function(){
             if(i < $diminish.length){
                 setTimeout(function(){
                     initDim(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#diminish').removeClass("cursor");
                 setTimeout(function() {
@@ -239,7 +239,7 @@ var initProgram = setTimeout(function(){
             if(i < $develop.length){
                 setTimeout(function(){
                     initDeve(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#develop').removeClass("cursor");
                 setTimeout(function() {
@@ -254,7 +254,7 @@ var initProgram = setTimeout(function(){
             if(i < $boost.length){
                 setTimeout(function(){
                     initBoo(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#boost').removeClass("cursor");
                 setTimeout(function() {
@@ -269,7 +269,7 @@ var initProgram = setTimeout(function(){
             if(i < $database.length){
                 setTimeout(function(){
                     initData(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#database').removeClass("cursor");
                 setTimeout(function() {
@@ -284,7 +284,7 @@ var initProgram = setTimeout(function(){
             if(i < $applied.length){
                 setTimeout(function(){
                     initApp(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#applied').removeClass("cursor");
                 setTimeout(function() {
@@ -299,7 +299,7 @@ var initProgram = setTimeout(function(){
             if(i < $protect.length){
                 setTimeout(function(){
                     initPro(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#protect').removeClass("cursor");
                 setTimeout(function() {
@@ -314,7 +314,7 @@ var initProgram = setTimeout(function(){
             if(i < $create.length){
                 setTimeout(function(){
                     initCre(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#create').removeClass("cursor");
                 setTimeout(function() {
@@ -329,7 +329,7 @@ var initProgram = setTimeout(function(){
             if(i < $conduct.length){
                 setTimeout(function(){
                     initCon(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#conduct').removeClass("cursor");
                 setTimeout(function() {
@@ -344,7 +344,7 @@ var initProgram = setTimeout(function(){
             if(i < $identy.length){
                 setTimeout(function(){
                     initIden(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#identy').removeClass("cursor");
                 setTimeout(function() {
@@ -359,7 +359,7 @@ var initProgram = setTimeout(function(){
             if(i < $compliy.length){
                 setTimeout(function(){
                     initComp(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#compliy').removeClass("cursor");
                 setTimeout(function() {
@@ -374,7 +374,7 @@ var initProgram = setTimeout(function(){
             if(i < $ensure.length){
                 setTimeout(function(){
                     initEns(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#ensure').removeClass("cursor");
                 setTimeout(function() {
@@ -389,7 +389,7 @@ var initProgram = setTimeout(function(){
             if(i < $maintain.length){
                 setTimeout(function(){
                     initMain(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#maintain').removeClass("cursor");
                 setTimeout(function() {
@@ -404,7 +404,7 @@ var initProgram = setTimeout(function(){
             if(i < $impose.length){
                 setTimeout(function(){
                     initImp(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#impose').removeClass("cursor");
                 setTimeout(function() {
@@ -417,7 +417,7 @@ var initProgram = setTimeout(function(){
             if(i < $JSFrameworks.length){
                 setTimeout(function(){
                     initJSFrameworks(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#JSFrameworks').removeClass("cursor");
                 setTimeout(function() {
@@ -430,7 +430,7 @@ var initProgram = setTimeout(function(){
             if(i < $JSLibs.length){
                 setTimeout(function(){
                     initJSLibs(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#JSLibs').removeClass("cursor");
                 setTimeout(function() {
@@ -443,7 +443,7 @@ var initProgram = setTimeout(function(){
             if(i < $CSSFrameworks.length){
                 setTimeout(function(){
                     initCSSFrameworks(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#CSSFrameworks').removeClass("cursor");
                 setTimeout(function() {
@@ -457,7 +457,7 @@ var initProgram = setTimeout(function(){
             if(i < $CSSPre.length){
                 setTimeout(function(){
                     initCSSPre(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#CSSPre').removeClass("cursor");
                 setTimeout(function() {
@@ -472,7 +472,7 @@ var initProgram = setTimeout(function(){
             if(i < $forge.length){
                 setTimeout(function(){
                     initFrog(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#forge').removeClass("cursor");
                 setTimeout(function() {
@@ -486,7 +486,7 @@ var initProgram = setTimeout(function(){
             if(i < $optimized.length){
                 setTimeout(function(){
                     initOpti(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#optimized').removeClass("cursor");
                 setTimeout(function() {
@@ -500,7 +500,7 @@ var initProgram = setTimeout(function(){
             if(i < $deploy.length){
                 setTimeout(function(){
                     initDep(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#deploy').removeClass("cursor");
                 setTimeout(function() {
@@ -514,7 +514,7 @@ var initProgram = setTimeout(function(){
             if(i < $protected.length){
                 setTimeout(function(){
                     initProt(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#protected').removeClass("cursor");
                 setTimeout(function() {
@@ -528,7 +528,7 @@ var initProgram = setTimeout(function(){
             if(i < $rate.length){
                 setTimeout(function(){
                     initRate(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#rate').removeClass("cursor");
                 setTimeout(function() {
@@ -542,7 +542,7 @@ var initProgram = setTimeout(function(){
             if(i < $firewall.length){
                 setTimeout(function(){
                     initFire(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#firewall').removeClass("cursor");
                 setTimeout(function() {
@@ -556,7 +556,7 @@ var initProgram = setTimeout(function(){
             if(i < $layer2.length){
                 setTimeout(function(){
                     initLayer(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#layer2').removeClass("cursor");
                 setTimeout(function() {
@@ -570,7 +570,7 @@ var initProgram = setTimeout(function(){
             if(i < $frontEndAnimation.length){
                 setTimeout(function(){
                     initFrontEndAnimation(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#frontEndAnimation').removeClass("cursor");
                 setTimeout(function() {
@@ -584,7 +584,7 @@ var initProgram = setTimeout(function(){
             if(i < $cmsDevelopment.length){
                 setTimeout(function(){
                     initCMSDevelopment(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#cmsDevelopment').removeClass("cursor");
                 setTimeout(function() {
@@ -597,7 +597,7 @@ var initProgram = setTimeout(function(){
             if(i < $wordpress.length){
                 setTimeout(function(){
                     initWordpress(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#wordpress').removeClass("cursor");
                 setTimeout(function() {
@@ -611,7 +611,7 @@ var initProgram = setTimeout(function(){
             if(i < $design.length){
                 setTimeout(function(){
                     initDesign(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#design').removeClass("cursor");
                 setTimeout(function() {
@@ -624,7 +624,7 @@ var initProgram = setTimeout(function(){
             if(i < $webDesign.length){
                 setTimeout(function(){
                     initWebDesign(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#webDesign').removeClass("cursor");
                 setTimeout(function() {
@@ -637,7 +637,7 @@ var initProgram = setTimeout(function(){
             if(i < $branding.length){
                 setTimeout(function(){
                     initBranding(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#branding').removeClass("cursor");
                 setTimeout(function() {
@@ -650,7 +650,7 @@ var initProgram = setTimeout(function(){
             if(i < $designAnimation.length){
                 setTimeout(function(){
                     initDesignAnimation(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#designAnimation').removeClass("cursor");
                 setTimeout(function () {
@@ -664,7 +664,7 @@ var initProgram = setTimeout(function(){
             if(i < $rise.length){
                 setTimeout(function() {
                     initJobDesForEveris( i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#rise').removeClass("cursor");
                 setTimeout(function (){
@@ -678,7 +678,7 @@ var initProgram = setTimeout(function(){
             if(i < $para.length){
                 setTimeout(function(){
                     initparagraph(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#para').removeClass("cursor");
                 setTimeout(function () {
@@ -693,7 +693,7 @@ var initProgram = setTimeout(function(){
             if(i < $h.length){
                 setTimeout(function() {
                     inithabit( i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#h').removeClass("cursor");
                 setTimeout(function (){
@@ -707,12 +707,12 @@ var initProgram = setTimeout(function(){
             if(i < $habitpara.length){
                 setTimeout(function() {
                     initHabitPara( i + 1);
-                }, 15);
+                }, 25);
             }else{
                 $('#habitpara').removeClass("cursor");
                 setTimeout(function (){
                    initMyName(0);
-                }, 150);
+                }, 1500);
             }
         }
 
@@ -721,7 +721,7 @@ var initProgram = setTimeout(function(){
             if(i < $myname.length){
                 setTimeout(function() {
                     initMyName( i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#myname').removeClass("cursor");
                 setTimeout(function (){
@@ -736,7 +736,7 @@ var initProgram = setTimeout(function(){
             if(i < $myemail.length){
                 setTimeout(function() {
                     initMyEmail( i + 1);
-                }, 35);
+                }, );
             }else{
                 $('#myemail').removeClass("cursor");
                 setTimeout(function (){
@@ -750,7 +750,7 @@ var initProgram = setTimeout(function(){
             if(i < $website.length){
                 setTimeout(function() {
                     initWebsite( i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#website').removeClass("cursor");
                 setTimeout(function (){
@@ -764,7 +764,7 @@ var initProgram = setTimeout(function(){
             if (i < $phone.length) {
                 setTimeout(function () {
                     initPhoneNum(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#phone').removeClass("cursor");
                 setTimeout(function () {
@@ -778,7 +778,7 @@ var initProgram = setTimeout(function(){
             if (i < $title.length) {
                 setTimeout(function () {
                     initTitleMyHabit(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#title').removeClass("cursor");
                 setTimeout(function () {
@@ -792,7 +792,7 @@ var initProgram = setTimeout(function(){
             if (i < $myhabits.length) {
                 setTimeout(function (){
                     initMyHabit(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#myhabits').removeClass("cursor");
                 setTimeout(function (){
@@ -806,7 +806,7 @@ var initProgram = setTimeout(function(){
             if (i < $skills.length) {
                 setTimeout(function () {
                     initSkills(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#skills').removeClass("cursor");
                 setTimeout(function () {
@@ -820,7 +820,7 @@ var initProgram = setTimeout(function(){
             if (i < $skill1.length) {
                 setTimeout(function (){
                     initSkill1(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#skill1').removeClass("cursor");
                 setTimeout(function (){
@@ -834,7 +834,7 @@ var initProgram = setTimeout(function(){
             if (i < $skill2.length) {
                 setTimeout(function (){
                     initSkill2(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#skill2').removeClass("cursor");
                 setTimeout(function (){
@@ -848,7 +848,7 @@ var initProgram = setTimeout(function(){
             if (i < $skill3.length) {
                 setTimeout(function (){
                     initSkill3(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#skill3').removeClass("cursor");
                 setTimeout(function (){
@@ -862,7 +862,7 @@ var initProgram = setTimeout(function(){
             if (i < $skill4.length) {
                 setTimeout(function (){
                     initSkill4(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#skill4').removeClass("cursor");
                 setTimeout(function (){
@@ -876,7 +876,7 @@ var initProgram = setTimeout(function(){
             if (i < $skill5.length) {
                 setTimeout(function (){
                     initSkill5(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#skill5').removeClass("cursor");
                 setTimeout(function (){
@@ -890,7 +890,7 @@ var initProgram = setTimeout(function(){
             if (i < $skill6.length) {
                 setTimeout(function (){
                     initSkill6(i + 1);
-                }, 35);
+                }, 25);
             }else{
                 $('#skill6').removeClass("cursor");
                 setTimeout(function (){
@@ -904,7 +904,7 @@ var initProgram = setTimeout(function(){
             if (i < $skill7.length) {
                 setTimeout(function (){
                     initSkill7(i + 1);
-                }, 35);
+                }, 25);
             }else{
               //
             }
@@ -917,7 +917,7 @@ var initProgram = setTimeout(function(){
         if(i < greeting.length){
             setTimeout(function(){
                 initProgramAlpha(i + 1);
-            }, 35);
+            }, 25);
         }else{
             $("#greeting").removeClass("cursor");
             initIdentityResults(0);
