@@ -56,11 +56,13 @@ var initProgram = setTimeout(function(){
     var $cmsDevelopment = "Charter Communication - Spectrum";
     var $wordpress = "April 2022–present";
     var $design = "Business Class level 5+";
-    var $webDesign = "• Install and maintain internet, voice, and cable services.\n \n" +
-        "• Troubleshoot technical issues at customer premises.\n \n" +
-        "• Optimize network performance and reliability.\n \n" +
-        "• Deliver exceptional customer service in residential and business\n \n" +
-        "settings.";
+    var $webDesign = "* Managed  complex technical issues for both business and residential customers.";
+    var $manged = "*  Conducted on-site technical assessments and installations.";
+    var $install = "* Implemented technical quality assurance to ensure technical issue resolution.";
+    var $faciliate = "* Performed survey on enterprise sites to process improvements.";
+    var $custmer = "* Collaborated with customer service teams to improve overall customer experience.";
+    var $top = "* Achieved top-tier performance metrics among peers, maintaining 96% productivity while handling complex technical issues for both business and residential customers.";
+    var $escal = "* Implemented process improvements resulting in 40% reduction in escalation rates.";
     var $branding = "Everise";
     var $designAnimation = "May 17, 2021–April 2022";
     var $rise = "Tier 1 Technical Support Agent";
@@ -629,10 +631,94 @@ var initProgram = setTimeout(function(){
             }else{
                 $('#webDesign').removeClass("cursor");
                 setTimeout(function() {
+                    initMan(0);
+                }, 150);
+            }
+        }
+        function initMan(i){
+            $('#manged').addClass("sign cursor").text($manged.substring(0, i));
+            if(i < $manged.length){
+                setTimeout(function(){
+                    initMan(i + 1);
+                }, 25);
+            }else{
+                $('#manged').removeClass("cursor");
+                setTimeout(function() {
+                    initCond(0);
+                }, 150);
+            }
+        }
+
+        function initCond(i){
+            $('#install').addClass("sign cursor").text($install.substring(0, i));
+            if(i < $install.length){
+                setTimeout(function(){
+                    initCond(i + 1);
+                }, 25);
+            }else{
+                $('#install').removeClass("cursor");
+                setTimeout(function() {
+                    initFaci(0);
+                }, 150);
+            }
+        }
+
+        function initFaci(i){
+            $('#faciliate').addClass("sign cursor").text($faciliate.substring(0, i));
+            if(i < $faciliate.length){
+                setTimeout(function(){
+                    initFaci(i + 1);
+                }, 25);
+            }else{
+                $('#faciliate').removeClass("cursor");
+                setTimeout(function() {
+                    initCus(0);
+                }, 150);
+            }
+        }
+
+        function initCus(i){
+            $('#custmer').addClass("sign cursor").text($custmer.substring(0, i));
+            if(i < $custmer.length){
+                setTimeout(function(){
+                    initCus(i + 1);
+                }, 25);
+            }else{
+                $('#custmer').removeClass("cursor");
+                setTimeout(function() {
+                    initTop(0);
+                }, 150);
+            }
+        }
+
+        function initTop(i){
+            $('#top').addClass("sign cursor").text($top.substring(0, i));
+            if(i < $top.length){
+                setTimeout(function(){
+                    initTop(i + 1);
+                }, 25);
+            }else{
+                $('#top').removeClass("cursor");
+                setTimeout(function() {
+                    initEsc(0);
+                }, 150);
+            }
+        }
+
+        function initEsc(i){
+            $('#escal').addClass("sign cursor").text($escal.substring(0, i));
+            if(i < $escal.length){
+                setTimeout(function(){
+                    initEsc(i + 1);
+                }, 25);
+            }else{
+                $('#escal').removeClass("cursor");
+                setTimeout(function() {
                     initBranding(0);
                 }, 150);
             }
         }
+
         function initBranding(i){
             $('#branding').addClass("sign cursor").text($branding.substring(0, i));
             if(i < $branding.length){
