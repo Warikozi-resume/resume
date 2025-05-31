@@ -92,7 +92,7 @@ var initProgram = setTimeout(function(){
     var $skill4 = "* Administered automated code scanning tools that reduced security vulnerabilities.";
     var $skill5 = "* Understand data & impact of encrypt all strategies.";
     var $skill6 = "* Instituted automated workflows for continuous verification of identity and context.";
-    var $skill7 = "* identified coverage gaps in the Wi-Fi mesh system and implemented strategic AP placement improvements.";
+    var $skill7 = "* Identified coverage gaps in the Wi-Fi mesh system and implemented strategic AP placement improvements.";
     function initIdentityResults(i){
         $("#message").addClass("sign cursor").text(message.substring(0, i));
         if(i < message.length){
