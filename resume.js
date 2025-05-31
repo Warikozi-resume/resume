@@ -16,7 +16,7 @@ setTimeout(function() {
 
 var initProgram = setTimeout(function(){
 
-    var job = "Unversity of Marland Globle Compass"
+    var job = "University of Maryland Global Campus"
     var message = "RUNNING SECURITY ARCHITECH RESUME FOR MR.BONEY";
     var $identityDiv = $("#identity-results");
     var greeting = "";
