@@ -42,7 +42,7 @@ var initProgram = setTimeout(function(){
     var $impose = "* Imposed OWASP security guidelines.";
     var $JSFrameworks = "Austin Community College";
     var $JSLibs = "Aug 2018 - Aug 2020";
-    var $CSSFrameworks = "Associate degree of Applied Science in Local Area Network\n" +
+    var $CSSFrameworks = "Associate Degree of Applied Science in Local Area Network\n" +
         "Administration";
     var $CSSPre = "NETWORK ADMINISTRATION EDUCATION";
     var $forge = "* Forged  networks supporting 500+ concurrent users.";
