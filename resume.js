@@ -90,7 +90,7 @@ var initProgram = setTimeout(function(){
     var $skill2 = "* Created automated scripts to continuously monitor security configurations.";
     var $skill3 = " * Designed a Zero Trust dashboard for real-time monitoring and threat detection.";
     var $skill4 = "* Administered automated code scanning tools that reduced security vulnerabilities.";
-    var $skill5 = "* Understand data & impact of encrypt all' strategies.";
+    var $skill5 = "* Understand data & impact of encrypt all strategies.";
     var $skill6 = "* Instituted automated workflows for continuous verification of identity and context.";
     var $skill7 = "* identified coverage gaps in the Wi-Fi mesh system and implemented strategic AP placement improvements.";
     function initIdentityResults(i){
