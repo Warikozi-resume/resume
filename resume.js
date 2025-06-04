@@ -71,10 +71,10 @@ var initProgram = setTimeout(function(){
     var $advance = "* Advanced  and applied comprehensive diagnostic methodology for node-to-node communication failures.";
     var $rank = "* Ranked among top performers with 92% resolution rate on complex mesh network.";
     var $amazon = "*  Contributed to Amazon Eero partnership success, resolving over 250 high-priority cases monthly with demonstrated cost savings through reduced callbacks.";
-    var $back = "* Reduced customer callback rate by 28% through thorough initial issue resolution.";
+    var $back = "* Reduced customer callback rate by 75% through thorough initial issue resolution.";
     var $high = "*  Maintained high customer satisfaction ratings through clear technical communication.";
-    var $led = "* Led comprehensive mesh network optimization project, implementing systematic diagnostic methodology that reduced customer callback rate by 28%.";
-    var $reso = "* Decreased customer callback rate by 28% through thorough initial issue resolution.";
+    var $led = "* Led comprehensive mesh network optimization project, implementing systematic diagnostic methodology that reduced customer callback rate by 40%.";
+    var $reso = "* Decreased customer callback rate by 40% through thorough initial issue resolution.";
     var $h = "Profile";
     var $habitpara = "Comprehensive expertise in software development lifecycle and cybersecurity frameworks has been evolved through studies in Cyber Operations with specialization in software development and security. Designed Secure enterprise architectures, implementing threat modeling to cut down risk exposure, and configuring security controls across network devices. Weekly managed code audits and vulnerability assessment projects. Proficiency in C++, Java, and Python has been demonstrated, with expertise in NIST Cybersecurity Framework and MITRE ATT&CK, and experience with Windows Server, Linux, and security tools including Burp Suite, Nessus, and Metasploit.";
     var $myname = "* Name: Boney Warikozi";
@@ -884,28 +884,29 @@ var initProgram = setTimeout(function(){
             }else{
                  $('#led').removeClass("cursor");
                  setTimeout(function () {
-                 initReso(0);
+                     initTitleMyHabit(0);
+                     initSkills(0);
                  }, 150);
 
             }
         }
 
 
-        function initReso(i){
-            $('#reso').addClass("sign cursor").text($reso.substring(0, i));
-            if(i < $reso.length){
-                setTimeout(function(){
-                    initReso(i + 1);
-                }, 25);
-            }else{
-                $('#reso').removeClass("cursor");
-                setTimeout(function () {
-                    initTitleMyHabit(0);
-                    initSkills(0);
-                 }, 150);
+        //function initReso(i){
+        //    $('#reso').addClass("sign cursor").text($reso.substring(0, i));
+         //   if(i < $reso.length){
+          //      setTimeout(function(){
+               //     initReso(i + 1);
+             //   }, 25);
+           // }else{
+              //  $('#reso').removeClass("cursor");
+              //  setTimeout(function () {
+                   // initTitleMyHabit(0);
+                   //
+                // }, 150);
 
-            }
-        }
+          //  }
+       // }
 
         function inithabit(i) {
             $('#h').addClass("sign cursor").text($h.substring(0, i));
