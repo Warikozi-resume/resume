@@ -17,82 +17,81 @@ setTimeout(function() {
 var initProgram = setTimeout(function(){
 
     var job = "University of Maryland Global Campus"
-    var message = "RUNNING SECURITY ARCHITECH RESUME FOR MR.BONEY WARIKOZI";
+    var message = "RUNNING SECURITY ENGINEER RESUME FOR MR.BONEY WARIKOZI";
     var $identityDiv = $("#identity-results");
     var greeting = "";
     var $edu = "University of Maryland Global Campus";
     var $name = "Education";
     var $alias = " Aug 2023 - Present"
-    var $occupation  = "Software Development and Security";
-    var $frontEnd  = "SOFTWARE DEVELOPMENT EDUCATION";
-    var $dev = "* Enhanced productivity through refined code and architectural patterns.";
-    var $enhance = "* Diminished development time by 30% through efficient algorithm selection and implementation.";
-    var $diminish = "* Developed expertise in Microservices architecture and containerization for 600+ users.";
-    var $develop = "* Boosted system reliability through proven design patterns.";
-    var $boost = "* Enhanced database performance through indexing and query optimization.";
-    var $database = "* Applied data storage solutions meeting regulatory requirements.";
-    var $applied = "SECURITY EDUCATION";
-    var $protect = "* Protected sensitive data through advanced encryption protocol.";
-    var $create = "* Created security architectures meeting NIST framework guidelines.";
-    var $conduct = "* Conducted risk assessments using NIST framework methodology.";
-    var $identy = "* Identified and mitigated critical vulnerabilities through proactive monitoring.";
-    var $compliy = "* Compliance Frameworks & Regulatory Requirements.";
-    var $ensure = "* Ensured HIPAA compliance in simulated healthcare environments.";
-    var $maintain = "* Maintained PCI-DSS standards for simulated financial systems.";
-    var $impose = "* Imposed OWASP security guidelines.";
+    var $occupation  = "Bachelor of Science - Software Development and Security";
+    var $frontEnd  = "SOFTWARE DEVELOPMENT";
+    var $dev = "* Engineered secure applications using object-oriented design patterns in C++, Java, and Python.";
+    var $enhance = "* Reduced development time by 30% through efficient algorithm selection and modular code architecture.";
+    var $diminish = "* Architected microservices-based applications with containerized deployment for 600+ concurrent users.";
+    var $develop = "* Implemented CI/CD pipelines integrating automated security testing at each stage of the SDLC.";
+    var $boost = "* Optimized database performance through indexing, query tuning, and secure access controls.";
+    var $database = "* Designed data storage solutions compliant with regulatory requirements including encryption at rest.";
+    var $applied = "CYBERSECURITY";
+    var $protect = "* Implemented advanced encryption protocols (AES-256, TLS 1.3) to protect sensitive data in transit and at rest.";
+    var $create = "* Designed security architectures aligned with NIST Cybersecurity Framework and MITRE ATT&CK methodologies.";
+    var $conduct = "* Conducted comprehensive risk assessments and threat modeling using NIST SP 800-30 guidelines.";
+    var $identy = "* Identified and remediated critical vulnerabilities through proactive scanning with Nessus and Burp Suite.";
+    var $compliy = "* Applied compliance frameworks including HIPAA, PCI-DSS, and OWASP Top 10 security guidelines.";
+    var $ensure = "* Configured SIEM platforms for real-time log aggregation, correlation, and threat detection.";
+    var $maintain = "* Performed penetration testing on simulated enterprise environments using Metasploit and custom scripts.";
+    var $impose = "* Developed incident response playbooks following NIST SP 800-61 methodology.";
     var $JSFrameworks = "Austin Community College";
     var $JSLibs = "Aug 2018 - Aug 2020";
-    var $CSSFrameworks = "Associate Degree of Applied Science in Local Area Network\n" +
-        "Administration";
-    var $CSSPre = "NETWORK ADMINISTRATION EDUCATION";
-    var $forge = "* Forged  networks supporting 500+ concurrent users.";
-    var $optimized = "* Optimized network throughput through proper VLAN segmentation.";
-    var $deploy = "* Deployed WAN solutions connecting multiple geographic locations.";
-    var $protected = "* Protected against common network attacks through security measures.";
-    var $rate = "* Optimized protocol performance improving packet delivery rates.";
-    var $firewall = "* Enforced  firewalls rules reducing unauthorized access.";
-    var $layer2 = "* Analyzed layer 2 packages using Wireshark."
+    var $CSSFrameworks = "Associate of Applied Science - Local Area Network Administration";
+    var $CSSPre = "NETWORK SECURITY & ADMINISTRATION";
+    var $forge = "* Engineered and secured enterprise networks supporting 500+ concurrent users with 99.9% uptime.";
+    var $optimized = "* Optimized network segmentation through VLAN configuration to isolate sensitive traffic and reduce attack surface.";
+    var $deploy = "* Deployed and hardened WAN solutions connecting multiple geographic locations with IPSec VPN tunnels.";
+    var $protected = "* Implemented IDS/IPS rules and ACLs to defend against common network-based attacks.";
+    var $rate = "* Configured firewall policies (pfSense, Cisco ASA) reducing unauthorized access attempts by 85%.";
+    var $firewall = "* Enforced network access control (NAC) policies and 802.1X port-based authentication.";
+    var $layer2 = "* Analyzed network traffic and captured packets using Wireshark for threat hunting and forensic analysis."
     var $frontEndAnimation = "WORK EXPERIENCE";
     var $cmsDevelopment = "Charter Communication - Spectrum";
-    var $wordpress = "April 2022–present";
-    var $design = "Business Class level 5+";
-    var $webDesign = "* Managed  complex technical issues for both business and residential customers.";
-    var $manged = "*  Conducted on-site technical assessments and installations.";
-    var $install = "* Implemented technical quality assurance to ensure technical issue resolution.";
-    var $faciliate = "* Performed survey on enterprise sites to process improvements.";
-    var $custmer = "* Collaborated with customer service teams to improve overall customer experience.";
-    var $top = "* Achieved top-tier performance metrics among peers, maintaining 96% productivity while handling complex technical issues for both business and residential customers.";
-    var $escal = "* Implemented process improvements resulting in 40% reduction in escalation rates.";
+    var $wordpress = "April 2022 - Present";
+    var $design = "Business Class Technical Support Engineer - Level 5+";
+    var $webDesign = "* Diagnosed and resolved complex network security issues for enterprise and business-class customers.";
+    var $manged = "* Conducted on-site technical assessments identifying security misconfigurations and network vulnerabilities.";
+    var $install = "* Implemented quality assurance protocols ensuring secure resolution of escalated technical incidents.";
+    var $faciliate = "* Performed enterprise site surveys analyzing network topology and recommending security improvements.";
+    var $custmer = "* Collaborated cross-functionally with engineering teams to resolve high-severity security incidents.";
+    var $top = "* Achieved top-tier performance metrics with 96% productivity, specializing in complex business-class network troubleshooting.";
+    var $escal = "* Developed and implemented process improvements reducing escalation rates by 40%.";
     var $branding = "Everise";
-    var $designAnimation = "May 17, 2021–April 2022";
-    var $rise = "Technical Support Agent";
-    var $para = "* Analyzed and resolved complex mesh network topology issues.";
-    var $issue = "* Collaborated effectively in teams of 12+ technical specialists, leading systematic diagnostic approaches for node-to-node communication failures.";
-    var $advance = "* Advanced  and applied comprehensive diagnostic methodology for node-to-node communication failures.";
-    var $rank = "* Ranked among top performers with 92% resolution rate on complex mesh network.";
-    var $amazon = "*  Contributed to Amazon Eero partnership success, resolving over 250 high-priority cases monthly with demonstrated cost savings through reduced callbacks.";
-    var $back = "* Reduced customer callback rate by 75% through thorough initial issue resolution.";
-    var $high = "*  Maintained high customer satisfaction ratings through clear technical communication.";
-    var $led = "* Led comprehensive mesh network optimization project, implementing systematic diagnostic methodology that reduced customer callback rate by 40%.";
-    var $reso = "* Decreased customer callback rate by 40% through thorough initial issue resolution.";
+    var $designAnimation = "May 2021 - April 2022";
+    var $rise = "Technical Support Agent - Network Security";
+    var $para = "* Analyzed and resolved complex mesh network topology issues including node authentication and encryption failures.";
+    var $issue = "* Led a team of 12+ technical specialists in systematic diagnostic approaches for network communication failures.";
+    var $advance = "* Developed comprehensive diagnostic methodology for identifying and resolving node-to-node security issues.";
+    var $rank = "* Ranked among top performers with 92% first-call resolution rate on complex network security cases.";
+    var $amazon = "* Managed Amazon Eero partnership, resolving 250+ high-priority security and connectivity cases monthly.";
+    var $back = "* Reduced customer callback rate by 75% through thorough root cause analysis and permanent remediation.";
+    var $high = "* Maintained 95%+ customer satisfaction through clear technical communication of security best practices.";
+    var $led = "* Led mesh network optimization project implementing security hardening that reduced vulnerabilities by 40%.";
+    var $reso = "* Documented and standardized troubleshooting procedures for recurring network security incidents.";
     var $h = "Profile";
-    var $habitpara = "Comprehensive expertise in software development lifecycle and cybersecurity frameworks has been evolved through studies in Cyber Operations with specialization in software development and security. Designed Secure enterprise architectures, implementing threat modeling to cut down risk exposure, and configuring security controls across network devices. Weekly managed code audits and vulnerability assessment projects. Proficiency in C++, Java, and Python has been demonstrated, with expertise in NIST Cybersecurity Framework and MITRE ATT&CK, and experience with Windows Server, Linux, and security tools including Burp Suite, Nessus, and Metasploit.";
+    var $habitpara = "Security Engineer with comprehensive expertise in software development lifecycle security and cybersecurity frameworks. Specializing in secure enterprise architecture design, threat modeling, vulnerability assessment, and security controls implementation. Proficient in Python, C++, and Java with hands-on experience in penetration testing, SIEM configuration, and incident response. Deep knowledge of NIST Cybersecurity Framework, MITRE ATT&CK, OWASP Top 10, and compliance standards (HIPAA, PCI-DSS). Experienced with security tools including Burp Suite, Nessus, Metasploit, Wireshark, and Splunk. Background in network administration provides strong foundation in infrastructure security and defense-in-depth strategies.";
     var $myname = "* Name: Boney Warikozi";
     var $myemail = "* Email: Boney.Warikozi@gmail.com";
-    var $website = "* Website: https://security-engineer.com --> Coming soon";
+    var $website = "* GitHub: github.com/warikozi-resume";
     var $github = " GitHub: ";
     var $resume = "Resume: ";
-    var $phone = "* Phone : 501-333-4371";
-    var $title = "Habits"
-    var $myhabits = "Dedicated technologist combining rigorous analytical thinking with disciplined physical training practices. Through consistent engagement in competitive combat sports (Boxing and Muay Thai), I've developed exceptional mental resilience and strategic problem-solving abilities. These athletic pursuits complement my technical expertise in Computer Science, fostering a unique combination of logical precision and creative solution development. Regular participation in high-intensity training sessions has honed my time management skills, allowing me to maintain peak academic performance while pursuing advanced technical projects";
+    var $phone = "* Phone: 501-333-4371";
+    var $title = "Certifications & Development"
+    var $myhabits = "CompTIA Security+ (In Progress) | NIST Cybersecurity Framework | MITRE ATT&CK | OWASP Top 10 | Active participation in CTF competitions and security research. Committed to continuous professional development through hands-on lab environments, vulnerability research, and engagement with the cybersecurity community.";
     var $skills = "Technical Skills";
-    var $skill1 = "* Reinforced and maintained a security vulnerability tracking system.";
-    var $skill2 = "* Created automated scripts to continuously monitor security configurations.";
-    var $skill3 = " * Designed a Zero Trust dashboard for real-time monitoring and threat detection.";
-    var $skill4 = "* Administered automated code scanning tools that reduced security vulnerabilities.";
-    var $skill5 = "* Understand data & impact of encrypt all strategies.";
-    var $skill6 = "* Instituted automated workflows for continuous verification of identity and context.";
-    var $skill7 = "* Identified coverage gaps in the Wi-Fi mesh system and implemented strategic AP placement improvements.";
+    var $skill1 = "* Security Tools: Burp Suite, Nessus, Metasploit, Wireshark, Nmap, Splunk, Snort, OSSEC";
+    var $skill2 = "* Programming: Python, C++, Java, Bash scripting, SQL, PowerShell";
+    var $skill3 = "* Network Security: Firewalls, IDS/IPS, VPN, VLAN, NAC, 802.1X, TCP/IP, DNS, DHCP";
+    var $skill4 = "* Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD, Terraform, Git";
+    var $skill5 = "* Frameworks: NIST CSF, NIST SP 800-53, MITRE ATT&CK, OWASP, CIS Benchmarks, ISO 27001";
+    var $skill6 = "* Operating Systems: Kali Linux, Ubuntu, CentOS, Windows Server, Active Directory";
+    var $skill7 = "* Practices: Penetration Testing, Threat Modeling, Incident Response, Vulnerability Management, Zero Trust Architecture";
     function initIdentityResults(i){
         $("#message").addClass("sign cursor").text(message.substring(0, i));
         if(i < message.length){
@@ -892,22 +891,6 @@ var initProgram = setTimeout(function(){
         }
 
 
-        //function initReso(i){
-        //    $('#reso').addClass("sign cursor").text($reso.substring(0, i));
-         //   if(i < $reso.length){
-          //      setTimeout(function(){
-               //     initReso(i + 1);
-             //   }, 25);
-           // }else{
-              //  $('#reso').removeClass("cursor");
-              //  setTimeout(function () {
-                   // initTitleMyHabit(0);
-                   //
-                // }, 150);
-
-          //  }
-       // }
-
         function inithabit(i) {
             $('#h').addClass("sign cursor").text($h.substring(0, i));
             if(i < $h.length){
@@ -956,7 +939,7 @@ var initProgram = setTimeout(function(){
             if(i < $myemail.length){
                 setTimeout(function() {
                     initMyEmail( i + 1);
-                }, );
+                }, 25);
             }else{
                 $('#myemail').removeClass("cursor");
                 setTimeout(function (){
@@ -1143,5 +1126,3 @@ var initProgram = setTimeout(function(){
 }, 150);
 
 initProgram()
-
-
