@@ -17,12 +17,12 @@ setTimeout(function() {
 var initProgram = setTimeout(function(){
 
     var job = "University of Maryland Global Campus"
-    var message = "RUNNING SECURITY ENGINEER RESUME FOR MR.BONEY WARIKOZI";
+    var message = "RUNNING SECURITY ENGINEER RESUME...";
     var $identityDiv = $("#identity-results");
     var greeting = "";
     var $edu = "University of Maryland Global Campus";
     var $name = "Education";
-    var $alias = " Aug 2023 - Present"
+    var $alias = " Aug 2023 - Oct 2025"
     var $occupation  = "Bachelor of Science - Software Development and Security";
     var $frontEnd  = "SOFTWARE DEVELOPMENT";
     var $dev = "* Engineered secure applications using object-oriented design patterns in C++, Java, and Python.";
@@ -75,7 +75,7 @@ var initProgram = setTimeout(function(){
     var $led = "* Led mesh network optimization project implementing security hardening that reduced vulnerabilities by 40%.";
     var $reso = "* Documented and standardized troubleshooting procedures for recurring network security incidents.";
     var $h = "Profile";
-    var $habitpara = "Security Engineer with comprehensive expertise in software development lifecycle security and cybersecurity frameworks. Specializing in secure enterprise architecture design, threat modeling, vulnerability assessment, and security controls implementation. Proficient in Python, C++, and Java with hands-on experience in penetration testing, SIEM configuration, and incident response. Deep knowledge of NIST Cybersecurity Framework, MITRE ATT&CK, OWASP Top 10, and compliance standards (HIPAA, PCI-DSS). Experienced with security tools including Burp Suite, Nessus, Metasploit, Wireshark, and Splunk. Background in network administration provides strong foundation in infrastructure security and defense-in-depth strategies.";
+    var $habitpara = "Dedicated and results-driven cybersecurity student with a strong foundation in software development and network security. Designed and implemented secure applications, optimized network performance, and resolved complex technical issues. Committed to continuous learning and staying ahead of emerging threats and technologies in the cybersecurity landscape.";
     var $myname = "* Name: Boney Warikozi";
     var $myemail = "* Email: Boney.Warikozi@gmail.com";
     var $website = "* Website: www.securityengineer.com";
@@ -129,6 +129,7 @@ var initProgram = setTimeout(function(){
                     setTimeout(function() {
                         initEducation(0);
                         inithabit(0);
+                        initFrontEndAnimation(0);
                     }, 150);
                 }
             }
@@ -566,7 +567,7 @@ var initProgram = setTimeout(function(){
             }else{
                 $('#layer2').removeClass("cursor");
                 setTimeout(function() {
-                    initFrontEndAnimation(0);
+                    //initFrontEndAnimation(0);
                 }, 150);
             }
         }
