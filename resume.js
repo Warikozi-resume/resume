@@ -85,13 +85,13 @@ var initProgram = setTimeout(function(){
     var $title = "Development"
     var $myhabits = "Committed to continuous professional development through hands-on lab environments, vulnerability research, and engagement with the cybersecurity community.";
     var $skills = "Technical Skills";
-    var $skill1 = "* Security Tools: Burp Suite, Nessus, Metasploit, Wireshark, Nmap, Splunk, Snort, OSSEC";
-    var $skill2 = "* Programming: Python, C++, Java, Bash scripting, SQL, PowerShell";
-    var $skill3 = "* Network Security: Firewalls, IDS/IPS, VPN, VLAN, NAC, 802.1X, TCP/IP, DNS, DHCP";
-    var $skill4 = "* Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD, Terraform, Git";
-    var $skill5 = "* Frameworks: NIST CSF, NIST SP 800-53, MITRE ATT&CK, OWASP, CIS Benchmarks, ISO 27001";
-    var $skill6 = "* Operating Systems: Kali Linux, Ubuntu, CentOS, Windows Server, Active Directory";
-    var $skill7 = "* Practices: Penetration Testing, Threat Modeling, Incident Response, Vulnerability Management, Zero Trust Architecture";
+    var $skill1 = "Security Tools: Burp Suite, Nessus, Metasploit, Wireshark, Nmap, Splunk, Snort, OSSEC";
+    var $skill2 = "Programming: Python, C++, Java, Bash scripting, SQL, PowerShell";
+    var $skill3 = "Network Security: Firewalls, IDS/IPS, VPN, VLAN, NAC, 802.1X, TCP/IP, DNS, DHCP";
+    var $skill4 = "Cloud & DevOps: AWS, Azure, Docker, Git";
+    var $skill5 = "Frameworks: NIST CSF, NIST SP 800-53, MITRE ATT&CK, OWASP";
+    var $skill6 = "Operating Systems: Kali Linux, Ubuntu, CentOS, Windows Server, Active Directory";
+    var $skill7 = "Practices: Penetration Testing, Threat Modeling, Incident Response, Vulnerability Management, Zero Trust Architecture";
     function initIdentityResults(i){
         $("#message").addClass("sign cursor").text(message.substring(0, i));
         if(i < message.length){
